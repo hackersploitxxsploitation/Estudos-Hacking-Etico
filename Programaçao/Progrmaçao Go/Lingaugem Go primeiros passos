@@ -1,0 +1,104 @@
+AUla 2 Introuçao a linguagem go
+Tipos de dados
+string :sequencia de carcteres 
+"abc"+"adsd"=abcadsd"
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println(len("Hello World"))
+	fmt.Println("Hello World"[1])
+	fmt.Println("Hello " + "World")
+}
+referencias:https://www.golang-book.com/books/intro/3
+Booleanos:
+true:condiçao verdadeira
+falsecondiçao false
+
+Operadores 
+&&	and(nosso e logio
+||	or(ou
+!	no(no)
+
+
+
+
+Problemas 
+Problema 2:package main
+
+//Problema 2
+
+//Usando a logica podemos que se 10^n-1=Max
+//para obter o maior numero binario Max/9
+import "fmt"
+
+func main() {
+	fmt.Println("O maior numero binario  de  digitos é", ((1000*100000)-1)/9)
+}
+Resp:11111111
+Problema 3:
+package main
+
+//Problema 2
+
+//Usando a logica podemos que se 10^n-1=Max
+//para obter o maior numero binario Max/9
+import "fmt"
+
+func main() {
+	fmt.Println("O resultado é", 32132*42452)
+}
+resultado:1364067664
+
+package main
+
+//Problema 2
+
+//Usando a logica podemos que se 10^n-1=Max
+//para obter o maior numero binario Max/9
+import "fmt"
+
+func main() {
+	fmt.Println((true && false) || (false && true) || !(false && false))
+}
+resultado:true
+
+
+
+
+Variaveis:
+Uma variável é um local de armazenamento, com um tipo específico e um nome associado. Vamos mudar o programa que escrevemos no capítulo 2 para que ele use uma variável:
+
+prob
+var x
+e x:=
+
+prob 2
+package main
+
+//Problema 2
+
+//Usando a logica podemos que se 10^n-1=Max
+//para obter o maior numero binario Max/9
+import "fmt"
+
+func main() {
+	x := 5
+	x += 1
+	fmt.Println("o valor", x)
+}
+package main
+
+//Problema 2
+
+//Usando a logica podemos que se 10^n-1=Max
+//para obter o maior numero binario Max/9
+import "fmt"
+
+func main() {
+	var tem float64
+	fmt.Println("Digite o valor da temperatura em fahreheit:")
+	fmt.Scanf("%f", &tem)
+	fmt.Println("O valor em celsius é:", ((tem-32)*5)/9)
+}
